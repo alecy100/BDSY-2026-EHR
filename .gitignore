@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+mimic-iv-clinical-database-demo-2.2/
+.venv
+hidden/
+output/
+prediction/
+
+__pycache__/

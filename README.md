@@ -1,1 +1,7 @@
-# EHR-BDSY-Project
+# Mean Arterial Pressure (MAP) Trajectories in ICU Stroke Patients: Assessing 30-day Mortality Risk and Predictive Accuracy
+
+## Abstract
+Mean arterial pressure (MAP) may provide prognostic information among critically ill patients with stroke, but the value of longitudinal MAP features remains unclear. Using the MIMIC-IV database, we evaluated whether MAP measurements collected during the first 48 hours after ICU admission predicted mortality over the subsequent 28 days among patients with hemorrhagic or ischemic stroke. Binned MAP measurements had a 5% missing rate, and patients were randomly divided at the patient level into a 70% training set and a 30% held-out test set, followed by multiple imputation to generate five completed datasets. Mixed-effects models with a least absolute shrinkage and selection operator penalty were used for variable selection. Linear mixed-effects models were then fitted to estimate patient-specific MAP random intercepts and slopes. Logistic regression and random forest models then used estimated random effects, mean MAP, or MAP standard deviation as predictors. Test-set areas under the receiver operating characteristic curve were similar across models, ranging from 0.72 to 0.75. In the adjusted logistic regression, higher mean MAP and larger estimated random intercepts were associated with lower odds of mortality. 
+
+## References
+Please refer to references.md.
